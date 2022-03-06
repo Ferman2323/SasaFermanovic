@@ -1,0 +1,109 @@
+body {
+  background-size: 100%;
+}
+.contact h2 {
+  color: black;
+  font-weight: bold;
+}
+.form-floating {
+  color: black;
+}
+@media (max-width: 768px) {
+  .contact-img{
+    display: none;
+  }
+  .contact-form {
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .nav {
+    font-size: 15px;
+  }
+  .contact-img{
+    display: none;
+  }
+  .soc-net a {
+    display: block;
+    width: 70px;
+    height: 70px;
+    text-indent: -9999px;
+    margin-bottom: 50px;
+  }
+  .adress h3, p  {
+    font-size: 25px;
+  }
+  }
+
+
+
+
+@media  (min-width: 992px) and (max-width: 1200px){
+
+
+  .nav {
+    font-size: 25px;
+  }
+
+  .overview h1 {
+    font-size: 25px;
+    width: 100%;
+  }
+
+  .text-wrapper {
+    width: 100%;
+    background-color: none;
+  }
+  .text-wrapper h2 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .text-wrapper p {
+    width: 100%;
+    font-size: 20px;
+    font-weight: lighter;
+  }
+  .soc-net a {
+    display: block;
+    width: 80px;
+    height: 80px;
+    text-indent: -9999px;
+    margin-bottom: 50px;
+  }
+  .adress h3, p  {
+    font-size: 30px;
+  }
+  }
+@media  (min-width: 1201px) {
+
+  .nav {
+    font-size: 25px;
+  }
+
+  .overview h1 {
+    font-size: 25px;
+    width: 100%;
+  }
+
+  .text-wrapper {
+    width: 100%;
+  }
+  .text-wrapper h2 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .text-wrapper p {
+    width: 100%;
+    font-size: 20px;
+    font-weight: lighter;
+  }
+
+.cards {
+margin-top: 400px;
+}
+
+
+
+
+}

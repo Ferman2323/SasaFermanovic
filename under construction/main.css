@@ -1,0 +1,19 @@
+*{
+box-sizing: border-box;
+}
+html, body {margin: 0; height: 100%; overflow: hidden}
+body, html {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/firstbg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  font-size: 30PX;
+  color: WHITE;
+  padding-top: 200px;
+}
