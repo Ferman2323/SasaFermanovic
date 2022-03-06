@@ -606,12 +606,16 @@ MEDIA QUERIE
 .adress h3, p  {
   font-size: 20px;
 }
+.row img{
+  width: 60%;
 
+}
 }
 @media only screen and (min-width: 769px) and (max-width: 992px) {
   body {
     background-size: auto;
   }
+
   .nav {
     font-size: 15px;
   }
@@ -658,6 +662,7 @@ MEDIA QUERIE
   body {
 background-size: auto;
   }
+
   .nav {
     font-size: 25px;
   }
