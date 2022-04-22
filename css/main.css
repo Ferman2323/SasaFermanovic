@@ -1,27 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Syne+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Satisfy&family=Syne+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&family=Syne+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Satisfy&family=Syne+Mono&display=swap");
 
-*{
+* {
   box-sizing: border-box;
   list-style: none;
 }
 
-
-body, html {
-max-width: 100%;
-overflow-x: hidden;
-font-size: 16px;
-line-height: 1.4;
-font-family: 'Satisfy', cursive !important;
-background-color: white;
-color: white ;
-width: 100%;
-margin-left: 0;
-margin-right: 0;
-padding: 0;
-background-image: url(../img/back-1.jpg);
-background-repeat: no-repeat;
-background-size: auto;
+body,
+html {
+  max-width: 100%;
+  overflow-x: hidden;
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: "Satisfy", cursive !important;
+  background-color: white;
+  color: white;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  background-image: url(../img/back-1.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
@@ -38,25 +38,23 @@ body {
   display: flex;
   justify-content: center;
   padding-top: 15px;
-
 }
 .nav-list {
   display: flex;
 }
-.nav-list li  {
+.nav-list li {
   display: flex;
   justify-content: center;
 }
 .nav-list li:hover {
   opacity: 30%;
 }
-.nav-list li:not(:last-child){
+.nav-list li:not(:last-child) {
   margin-right: 200px;
 }
 .nav-list li a {
   text-decoration: none;
   color: white;
-
 }
 .why-we {
   position: relative;
@@ -70,7 +68,7 @@ body {
   padding-top: 20px;
 }
 .why-we p {
-  font-family: 'Acme', sans-serif;
+  font-family: "Acme", sans-serif;
   color: grey;
   font-size: 25px;
   align-items: center;
@@ -92,11 +90,11 @@ body {
   color: grey;
   font-size: 25px;
   padding-bottom: 50px;
-    font-family: 'Acme', sans-serif;
+  font-family: "Acme", sans-serif;
 }
 .row {
-text-align: center;
-align-items: center;
+  text-align: center;
+  align-items: center;
 }
 
 .col img {
@@ -126,7 +124,7 @@ align-items: center;
   color: black;
   width: 100%;
   height: 2px;
-  background-color: grey;;
+  background-color: grey;
   margin-bottom: 50px;
   opacity: 20%;
   position: relative;
@@ -134,41 +132,37 @@ align-items: center;
 .overview {
   color: white;
   position: relative;
-  margin-bottom: 150px;;
+  margin-bottom: 150px;
   text-align: center;
-  font-family: 'Acme', sans-serif;
-
+  font-family: "Acme", sans-serif;
 }
 .overview h1 {
   font-weight: bold;
 }
 
 .bg-opacity {
-background: rgba(204, 204, 204, 0.5);
-padding-top: 50px;
-padding-bottom: 50px;
+  background: rgba(204, 204, 204, 0.5);
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .text-wrapper {
   align-items: center;
-  width:100%;
-  font-family: 'Acme', sans-serif;
+  width: 100%;
+  font-family: "Acme", sans-serif;
 
   padding-left: 50px;
-
-
 }
 .text-wrapper p {
-font-size: 25px;
-color: white;
+  font-size: 25px;
+  color: white;
 }
 .text-wrapper h2 {
   color: white;
 }
 
 .bright-green {
-  padding-bottom: 90px
+  padding-bottom: 90px;
 }
-
 
 .button {
   border-radius: 4px;
@@ -183,7 +177,7 @@ color: white;
   cursor: pointer;
   margin: 5px;
 }
-.button:hover{
+.button:hover {
   background-color: black;
 }
 
@@ -192,17 +186,15 @@ color: white;
   display: inline-block;
   position: relative;
   transition: 0.5s;
-
 }
 
 .button span:after {
-  content: '\00bb';
+  content: "\00bb";
   position: absolute;
   opacity: 0;
   top: 0;
   right: -20px;
   transition: 0.5s;
-
 }
 
 .button:hover span {
@@ -215,41 +207,39 @@ color: white;
   right: 0;
 }
 
-
 .upper-line {
-  border-top: 1px solid #8D908A;
+  border-top: 1px solid #8d908a;
   margin-bottom: 100px;
   margin-top: 100px;
   opacity: 30%;
 }
 
-
 .box {
   transition: 1s;
 }
 .box:hover {
-  transform:scale(1.3)
+  transform: scale(1.3);
 }
 .first-project img {
   width: 100%;
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  margin-bottom: 100px;;
+  margin-bottom: 100px;
 }
 .second-project img {
   width: 100%;
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  margin-bottom: 100px;;
+  margin-bottom: 100px;
 }
 .third-project img {
   width: 100%;
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  margin-bottom: 100px;;
+  margin-bottom: 100px;
 }
 
 .contact h2 {
@@ -258,7 +248,6 @@ color: white;
   background: rgba(204, 204, 204, 0.5);
   padding-top: 20px;
   padding-bottom: 20px;
-
 }
 .contact {
   padding-top: 100px;
@@ -275,15 +264,14 @@ color: white;
   width: 400px;
   transition: all 0.5s;
   cursor: pointer;
-  margin-left:auto;
-  margin-right:auto;
-  display:block;
-  margin-top:2%;
-  font-family: 'Satisfy', cursive !important;
-
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 2%;
+  font-family: "Satisfy", cursive !important;
 }
 
-.button-second:hover{
+.button-second:hover {
   background-color: green !important;
 }
 
@@ -293,18 +281,16 @@ color: white;
   position: relative;
   transition: 0.5s;
   color: black;
-
 }
 
 .button-second span:after {
-  content: '\00bb';
+  content: "\00bb";
   position: absolute;
   opacity: 0;
   top: 0;
   right: -20px;
   transition: 0.5s;
   color: black;
-
 }
 
 .button-second:hover span {
@@ -339,21 +325,28 @@ color: white;
 }
 .email-btn:hover {
   transform: scale(1.2);
-  transition: .3s linear;
+  transition: 0.3s linear;
 }
 .email a {
   border: none;
   color: white;
   text-decoration: none;
   font-size: 40px;
-
 }
 .footer {
   height: 500px;
-  background-color: #F5EDD7;
+  background: rgb(120, 120, 121);
+  background: linear-gradient(
+    90deg,
+    rgba(120, 120, 121, 1) 0%,
+    rgba(80, 80, 102, 1) 35%,
+    rgba(76, 174, 194, 1) 100%
+  );
+  -webkit-box-shadow: 1px -5px 29px 5px #000000;
+  box-shadow: 1px -5px 29px 5px #000000;
 }
 .footer {
-  margin-top: 0;
+  margin-top: 100px;
 }
 .soc-net {
   text-align: center;
@@ -362,9 +355,8 @@ color: white;
 }
 .soc-net li {
   display: inline-block;
-
 }
-.soc-net  &:not(:last-child){
+.soc-net &:not(:last-child) {
   margin-right: 10px;
 }
 .soc-net a {
@@ -373,31 +365,29 @@ color: white;
   height: 100px;
   text-indent: -9999px;
   margin-bottom: 50px;
-
 }
 .soc-net a:hover {
-  opacity: .8;
-
+  opacity: 0.8;
 }
 .in {
-background-image: url(../img/instagram.png);
-background-size: contain;
-margin-top: 50px;
-background-repeat: no-repeat;
-margin-right: 50px;
+  background-image: url(../img/instagram.png);
+  background-size: contain;
+  margin-top: 50px;
+  background-repeat: no-repeat;
+  margin-right: 50px;
 }
 .fac {
-background-image: url(../img/facebook.png);
-background-size: contain;
-margin-top: 50px;
-background-repeat: no-repeat;
+  background-image: url(../img/facebook.png);
+  background-size: contain;
+  margin-top: 50px;
+  background-repeat: no-repeat;
 }
 .lin {
-background-image: url(../img/linkedin.png);
-background-size: contain;
-margin-top: 50px;
-background-repeat: no-repeat;
-margin-right: 50px;
+  background-image: url(../img/linkedin.png);
+  background-size: contain;
+  margin-top: 50px;
+  background-repeat: no-repeat;
+  margin-right: 50px;
 }
 
 .adress h3 {
@@ -412,24 +402,22 @@ margin-right: 50px;
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-
 }
-.adress a:hover{
+.adress a:hover {
   opacity: 50%;
   transition: 0.5s;
 }
 .adress img:hover {
   transform: scale(1.2);
-  transition: .8s linear infinite;
+  transition: 0.8s linear infinite;
 }
 .footer-bottom li {
   list-style: none;
-    display: inline-block;
-    justify-content: center;
-    background-color: black;
-    margin-right: 10px;
-    border-radius: 10%;
-
+  display: inline-block;
+  justify-content: center;
+  background-color: black;
+  margin-right: 10px;
+  border-radius: 10%;
 }
 .footer-bottom ul {
   display: flex;
@@ -438,9 +426,9 @@ margin-right: 50px;
 .footer-bottom a {
   color: white;
   font-weight: bold;
-  background-color: #4B4B4B;
+  background-color: #4b4b4b;
 }
-.footer-bottom a:hover{
+.footer-bottom a:hover {
   color: orange;
 }
 .underline {
@@ -458,34 +446,34 @@ Page My Work
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  margin-bottom: 100px;;
+  margin-bottom: 100px;
 }
 .second-project2 img {
   width: 100%;
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  margin-bottom: 100px;;
+  margin-bottom: 100px;
 }
 .third-project2 img {
   width: 100%;
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  margin-bottom: 100px;;
+  margin-bottom: 100px;
 }
 
 .contact {
-  margin-top: 50px;;
+  margin-top: 50px;
   margin-bottom: 100px;
 }
 .form-control {
   margin-bottom: 60px;
 }
-.form-control:last-child{
+.form-control:last-child {
   margin-bottom: 5px;
 }
-.form-control:first-child{
+.form-control:first-child {
   margin-top: 40px;
 }
 
@@ -494,14 +482,13 @@ Page My Work
   justify-content: center;
   margin-bottom: 100px;
 }
-.contact-img img{
+.contact-img img {
   width: 6%;
-
 }
 .btn-contact {
   color: black;
-  background-color:#8D908A;
-  border: #8D908A;
+  background-color: #8d908a;
+  border: #8d908a;
   border-radius: 20%;
   width: 200px;
   height: 50px;
@@ -513,16 +500,15 @@ Page My Work
   margin-bottom: 40px;
 }
 .btn-contact:hover {
-background-color:green;
-color: white;
-transition: .4s;
+  background-color: green;
+  color: white;
+  transition: 0.4s;
 }
 .why-we {
   padding-top: 100px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 20px;
-
 }
 .portfolio {
   display: flex;
@@ -541,7 +527,7 @@ transition: .4s;
   opacity: 60%;
   box-shadow: 0 0 8px;
   transform: scale(1.2);
-  transition: .3s linear;
+  transition: 0.3s linear;
 }
 .my-work {
   padding-bottom: 100px;
@@ -574,129 +560,113 @@ Contact form
   align-items: center;
 }
 
-
-
-
-
-
-
-
-
-
-
 /******************************************************
 
 Contact END
 
 *****************************************************/
 
-
-
 /********************************************
 
 MEDIA QUERIE
 
 *********************************************/
-@media only screen and (min-width: 320px) and (max-width: 768px){
-
+@media only screen and (min-width: 320px) and (max-width: 768px) {
   body {
     background-size: auto;
   }
 
-.nav {
-  font-size: 15px;
-}
-.nav-list li:not(:last-child){
-  margin-right: 20px;
+  .nav {
+    font-size: 15px;
+  }
+  .nav-list li:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  .overview h1 {
+    font-size: 20px;
+    width: 100%;
+  }
+  .bg-opacity {
+    background: none;
+  }
+  .text-wrapper {
+    width: 100%;
+    background-color: none;
+  }
+  .text-wrapper h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .text-wrapper p {
+    width: 100%;
+    font-size: 15px;
+    font-weight: lighter;
+  }
+  .soc-net a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-indent: -9999px;
+    margin-bottom: 50px;
+  }
+  .adress h3,
+  p {
+    font-size: 20px;
+  }
+  .row img {
+    width: 50%;
+    height: 30%;
+  }
 }
 
-.overview h1 {
-  font-size: 20px;
-  width: 100%;
-}
-.bg-opacity {
-  background: none;
-}
-.text-wrapper {
-  width: 100%;
-  background-color: none;
-}
-.text-wrapper h2 {
-  font-size: 20px;
-  font-weight: bold;
-}
-.text-wrapper p {
-  width: 100%;
-  font-size: 15px;
-  font-weight: lighter;
-}
-.soc-net a {
-  display: block;
-  width: 50px;
-  height: 50px;
-  text-indent: -9999px;
-  margin-bottom: 50px;
-}
-.adress h3, p  {
-  font-size: 20px;
-}
-.row img{
-  width: 50%;
-  height: 30%;
-
-}
-
-}
-
-
-@media only screen and (min-width: 481) and (max-width: 768px){
+@media only screen and (min-width: 481) and (max-width: 768px) {
   body {
     background-size: auto;
   }
 
-.nav {
-  font-size: 15px;
-}
-.nav-list li:not(:last-child){
-  margin-right: 20px;
-}
+  .nav {
+    font-size: 15px;
+  }
+  .nav-list li:not(:last-child) {
+    margin-right: 20px;
+  }
 
-.overview h1 {
-  font-size: 20px;
-  width: 100%;
-}
-.bg-opacity {
-  background: none;
-}
-.text-wrapper {
-  width: 100%;
-  background-color: none;
-}
-.text-wrapper h2 {
-  font-size: 20px;
-  font-weight: bold;
-}
-.text-wrapper p {
-  width: 100%;
-  font-size: 15px;
-  font-weight: lighter;
-}
-.soc-net a {
-  display: block;
-  width: 50px;
-  height: 50px;
-  text-indent: -9999px;
-  margin-bottom: 50px;
-}
-.adress h3, p  {
-  font-size: 20px;
-}
-.row img{
-  width: 30%;
-  height: 30%;
-
-}
-
+  .overview h1 {
+    font-size: 20px;
+    width: 100%;
+  }
+  .bg-opacity {
+    background: none;
+  }
+  .text-wrapper {
+    width: 100%;
+    background-color: none;
+  }
+  .text-wrapper h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .text-wrapper p {
+    width: 100%;
+    font-size: 15px;
+    font-weight: lighter;
+  }
+  .soc-net a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-indent: -9999px;
+    margin-bottom: 50px;
+  }
+  .adress h3,
+  p {
+    font-size: 20px;
+  }
+  .row img {
+    width: 30%;
+    height: 30%;
+  }
 }
 @media only screen and (min-width: 769px) and (max-width: 992px) {
   body {
@@ -726,7 +696,6 @@ MEDIA QUERIE
     width: 100%;
     font-size: 15px;
     font-weight: lighter;
-
   }
   .soc-net a {
     display: block;
@@ -735,19 +704,15 @@ MEDIA QUERIE
     text-indent: -9999px;
     margin-bottom: 50px;
   }
-  .adress h3, p  {
+  .adress h3,
+  p {
     font-size: 25px;
   }
+}
 
-  }
-
-
-
-
-@media  (min-width: 992px) and (max-width: 1200px){
-
+@media (min-width: 992px) and (max-width: 1200px) {
   body {
-background-size: auto;
+    background-size: auto;
   }
 
   .nav {
@@ -779,13 +744,14 @@ background-size: auto;
     text-indent: -9999px;
     margin-bottom: 50px;
   }
-  .adress h3, p  {
+  .adress h3,
+  p {
     font-size: 30px;
   }
-  }
-@media  (min-width: 1201px) {
+}
+@media (min-width: 1201px) {
   body {
-    background-size:auto;
+    background-size: auto;
   }
   .nav {
     font-size: 25px;
@@ -809,13 +775,9 @@ background-size: auto;
     font-weight: lighter;
   }
 
-.cards {
-margin-top: 700px;
-}
-
-
-
-
+  .cards {
+    margin-top: 700px;
+  }
 }
 
 .clearfix {
