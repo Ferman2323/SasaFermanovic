@@ -54,7 +54,7 @@ if (isset($_POST["SenderName"], $_POST["SenderEmail"], $_POST["SenderMessage"]) 
 
     ## Slanje poruke i provera greške
     if ($mail->send()) {
-        echo 1;
+        echo 'The message is sent!';
         exit;
     } else {
         $status = 'error';

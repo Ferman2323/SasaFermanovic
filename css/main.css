@@ -21,7 +21,7 @@ margin-right: 0;
 padding: 0;
 background-image: url(../img/back-1.jpg);
 background-repeat: no-repeat;
-background-size: contain;
+background-size: auto;
 }
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
@@ -315,7 +315,39 @@ color: white;
   opacity: 1;
   right: 0;
 }
+.contact-me {
+  align-items: center;
+  text-align: center;
+  margin-top: 200px;
+  color: white;
+  font-size: 50px;
+}
+.email {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.email-btn {
+  text-decoration: none;
+  width: 300px;
+  height: 60px;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+.email-btn:hover {
+  transform: scale(1.2);
+  transition: .3s linear;
+}
+.email a {
+  border: none;
+  color: white;
+  text-decoration: none;
+  font-size: 40px;
 
+}
 .footer {
   height: 500px;
   background-color: #F5EDD7;
@@ -508,8 +540,8 @@ transition: .4s;
 .row img:hover {
   opacity: 60%;
   box-shadow: 0 0 8px;
-  transform: scale(1.4);
-  transition: .4s linear;
+  transform: scale(1.2);
+  transition: .3s linear;
 }
 .my-work {
   padding-bottom: 100px;
