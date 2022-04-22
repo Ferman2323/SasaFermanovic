@@ -597,10 +597,12 @@ Contact END
 MEDIA QUERIE
 
 *********************************************/
-@media (max-width: 768px) {
+@media only screen and (min-width: 320px) and (max-width: 768px){
+
   body {
     background-size: auto;
   }
+
 .nav {
   font-size: 15px;
 }
@@ -639,9 +641,62 @@ MEDIA QUERIE
   font-size: 20px;
 }
 .row img{
-  width: 60%;
+  width: 50%;
+  height: 30%;
 
 }
+
+}
+
+
+@media only screen and (min-width: 481) and (max-width: 768px){
+  body {
+    background-size: auto;
+  }
+
+.nav {
+  font-size: 15px;
+}
+.nav-list li:not(:last-child){
+  margin-right: 20px;
+}
+
+.overview h1 {
+  font-size: 20px;
+  width: 100%;
+}
+.bg-opacity {
+  background: none;
+}
+.text-wrapper {
+  width: 100%;
+  background-color: none;
+}
+.text-wrapper h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.text-wrapper p {
+  width: 100%;
+  font-size: 15px;
+  font-weight: lighter;
+}
+.soc-net a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-indent: -9999px;
+  margin-bottom: 50px;
+}
+.adress h3, p  {
+  font-size: 20px;
+}
+.row img{
+  width: 30%;
+  height: 30%;
+
+}
+
 }
 @media only screen and (min-width: 769px) and (max-width: 992px) {
   body {
